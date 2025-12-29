@@ -9,5 +9,15 @@ def sayHello(greeting):
 
 sayHello(greeting)
 
-# Output: Hello!
+greeting_fr = "Bonjour"
 
+def sayBonjour(greeting_fr):
+
+    print(greeting_fr)
+
+sayBonjour(greeting_fr)
+
+# Output: Hello!
+# Output: Bonjour
+
+# End of code

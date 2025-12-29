@@ -4,9 +4,23 @@ package main
 import "fmt"
 
 func main() {
-	greeting := "Hello!"
-	fmt.Println(greeting)
+	sayHello()
+	sayBonjour()
 }
 
-//end of code
+func sayHello(){
 
+	message := "Hello!"
+	fmt.Println(message)
+}	
+
+func sayBonjour(){
+
+	greeting_fr := "Bonjour"
+	fmt.Println(greeting_fr)
+}
+
+// Output: Hello!
+// Output: Bonjour
+
+//end of code

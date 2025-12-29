@@ -1,6 +1,6 @@
 #hello in Ruby
 
-def hello()
+def sayhello()
 
     greeting = "Hello!"
 
@@ -8,6 +8,19 @@ def hello()
 
 end
 
-hello()
+sayhello()
+
+def saybonjour()
+
+    greeting_fr = "Bonjour"
+
+    puts greeting_fr
+
+end
+
+saybonjour()
+
+# Output: Hello!
+# Output: Bonjour
 
 #end of code

@@ -11,4 +11,17 @@ function sayHello(greeting) {
 
 sayHello(greeting);
 
-// End of hello.js
+let greeting_fr = "Bonjour";
+
+function sayBonjour(greeting_fr) {
+
+    console.log(greeting_fr);
+
+}
+
+sayBonjour(greeting_fr);
+
+// Output: Hello!
+// Output: Bonjour
+
+// End of code
